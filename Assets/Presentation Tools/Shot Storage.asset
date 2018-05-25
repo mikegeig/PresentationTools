@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3c585c3ef862f419cffbe0268aeb9d, type: 3}
+  m_Name: Shot Storage
+  m_EditorClassIdentifier: 
+  shots:
+  - name: Shot 1
+    position: {x: -9.54479, y: -1.9768173, z: -4.6293554}
+    rotation: {x: -0.10868851, y: 0.7302914, z: -0.119585454, w: -0.6637473}
+    size: 10
+    selectedObjs:
+    - name: Sphere
+      pathToObj: 
+      sceneName: Demo Scene
+      rootObjName: Sphere
+    playableTimestamp: 4.966666666666667
+    isEditing: 0
+  - name: Shot 2
+    position: {x: -4.223286, y: -0.9893389, z: 0.18652225}
+    rotation: {x: 0.4392922, y: 0.0008113557, z: -0.00039664988, w: 0.8983438}
+    size: 10
+    selectedObjs:
+    - name: Directional Light
+      pathToObj: 
+      sceneName: Demo Scene
+      rootObjName: Directional Light
+    - name: Capsule
+      pathToObj: 
+      sceneName: Demo Scene
+      rootObjName: Capsule
+    playableTimestamp: 12.116666666666667
+    isEditing: 0
+  - name: New Shot
+    position: {x: 2.0203242, y: -0.8336587, z: 2.5318513}
+    rotation: {x: 0.15618333, y: 0.31065562, z: -0.051827144, w: 0.9361698}
+    size: 10
+    selectedObjs:
+    - name: Cylinder
+      pathToObj: 
+      sceneName: Demo Scene
+      rootObjName: Cylinder
+    - name: Cube
+      pathToObj: 
+      sceneName: Demo Scene
+      rootObjName: Cube
+    - name: Quad
+      pathToObj: 
+      sceneName: Demo Scene
+      rootObjName: Quad
+    playableTimestamp: 18.55
+    isEditing: 0
+  playableObjectName: Timeline Contoller
+  pathToObj: 
+  sceneName: Demo Scene
+  rootObjName: Timeline Contoller
+  directorID: 0
